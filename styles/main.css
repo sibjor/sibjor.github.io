@@ -39,3 +39,59 @@
     opacity: 1;
     transform: translate(0, 0);
 }
+
+/* Responsive Design */
+
+/* For screens up to 1024px (tablets) */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 1.75rem; /* Slightly smaller font size for h1 */
+    }
+    h2 {
+        font-size: 1.3rem; /* Slightly smaller font size for h2 */
+    }
+
+    /* "About you" header for tablets */
+    #about-you h2 {
+        font-size: 1.3rem; /* Adjust font size for tablets */
+        text-align: center; /* Center-align the header */
+        margin-top: 1.5rem; /* Add spacing above */
+    }
+}
+
+/* For screens up to 768px (mobile devices) */
+@media (max-width: 768px) {
+    body {
+        padding: 0.5rem; /* Reduce padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Smaller font size for h1 */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Smaller font size for h2 */
+    }
+
+    /* "About you" header for mobile screens */
+    #about-you h2 {
+        font-size: 1.2rem; /* Adjust font size for mobile */
+        text-align: center; /* Center-align the header */
+        margin-top: 1rem; /* Add spacing above */
+    }
+}
+
+/* For screens up to 480px (small mobile devices) */
+@media (max-width: 480px) {
+    main {
+        padding: 0.5rem; /* Reduce padding for very small screens */
+    }
+
+    ul li {
+        font-size: 0.95rem; /* Smaller font size for list items */
+    }
+
+    header, footer {
+        padding: 1rem 0.5rem; /* Adjust padding for header and footer */
+    }
+}
