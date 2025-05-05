@@ -13,7 +13,7 @@
 /* Keyframes for "About you" animation */
 @keyframes slideInFromTopRight {
     from {
-        transform: translate(100%, -100%);
+        transform: translate(100%, 100%);
         opacity: 0;
     }
     to {
