@@ -5,13 +5,9 @@
     padding: 0;
 }
 
-/* Prevent horizontal overflow */
-html, body {
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-    max-width: 100%; 
-}
-
 body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    max-width: 100%; /* Prevent horizontal overflow */
     font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
     color: #222;
