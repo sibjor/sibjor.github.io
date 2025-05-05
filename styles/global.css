@@ -8,7 +8,7 @@
 /* Prevent horizontal overflow */
 html, body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    max-width: 100%; /* Ensure no element exceeds the viewport width */
+    max-width: 100%; 
 }
 
 body {
@@ -24,7 +24,7 @@ header, footer {
     padding: 2rem 1rem;
     text-align: center;
     border-bottom: 1px solid #ddd;
-    max-width: 100%; /* Ensure header and footer do not overflow */
+    max-width: 100%;
 }
 
 h1 {
@@ -52,7 +52,7 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
-    width: 100%; /* Ensure main content does not exceed viewport width */
+    width: 100%;
 }
 
 ul {
