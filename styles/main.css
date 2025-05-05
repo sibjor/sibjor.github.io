@@ -1,0 +1,41 @@
+/* Keyframes for "About me" animation */
+@keyframes slideInFromTopLeft {
+    from {
+        transform: translate(-100%, -100%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+/* Keyframes for "About you" animation */
+@keyframes slideInFromTopRight {
+    from {
+        transform: translate(100%, -100%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+/* Apply animation to "About me" header */
+#about h2 {
+    animation: slideInFromTopLeft 1s ease-out;
+}
+
+/* Default state for "About you" header */
+#about-you h2 {
+    opacity: 0;
+    transform: translate(100%, -100%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+/* Trigger animation for "About you" header */
+#about-you h2.animate {
+    opacity: 1;
+    transform: translate(0, 0);
+}
