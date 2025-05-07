@@ -1,0 +1,6 @@
+[submodule "projects/mps"]
+	path = projects/mps
+	url = git@github.com:sibjor/mps.git
+[submodule "projects/url"]
+	path = projects/url
+	url = git@github.com:sibjor/url.git
